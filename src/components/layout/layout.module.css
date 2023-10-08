@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+  background-color: #6d4583;
+  background-image: url('../../images/pattern-bg.jpg');
+  background-size: 326px;
+  background-blend-mode: luminosity;
+}
+
+a {
+  color: #b775e0;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #a020f0;
+}
+
+.container {
+  margin: auto;
+  max-width: 500px;
+  background-color: #000;
+  color: #fff;
+  padding: 1px 100px;
+  padding-bottom: 1.5rem;
+}
+
+.heading {
+  color: #ec24ec;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link-item {
+  padding-right: 0;
+}
+
+.nav-link-text {
+  color: #fff;
+  color: #b775e0;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: #a020f0;
+  font-weight: 700;
+  margin: 1.5rem 0 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}

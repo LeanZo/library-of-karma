@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://library.karma.dev.br/`,
     title: `Library of Karma`,
     description: `A library of JHorror movies and other hard to find media.`,
+    image: `/cute-witch-no-bg-head.png`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -30,6 +31,18 @@ module.exports = {
             file: `https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap`,
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Library of Karma`,
+        short_name: `Library of Karma`,
+        start_url: `/`,
+        background_color: `#000`,
+        theme_color: `#a020f0`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
       },
     },
   ],

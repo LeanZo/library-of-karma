@@ -11,7 +11,7 @@ const CatalogPage = ({ data }) => {
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'space-around',
-        alignItems: 'center',
+        alignItems: 'flex-start',
         alignContent: 'center',
       }}>
         {

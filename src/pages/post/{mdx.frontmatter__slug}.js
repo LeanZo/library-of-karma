@@ -5,19 +5,24 @@ import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 const Post = ({ data, children }) => {
-  const image = getImage(data.mdx.frontmatter.hero_image)
+  const image = getImage(data.mdx.frontmatter.hero_image);
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>Posted: {data.mdx.frontmatter.date}</p>
+      <p style={{
+        margin: '-1.2rem 0 1rem 2px',
+        fontSize: '13px'
+      }}>
+        Posted: {data.mdx.frontmatter.date}
+      </p>
       <GatsbyImage
         image={image}
         alt={data.mdx.frontmatter.hero_image_alt}
       />
       {children}
     </Layout>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query ($id: String) {

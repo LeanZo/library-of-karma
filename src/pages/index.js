@@ -16,9 +16,10 @@ const IndexPage = ({ data }) => {
               alignItems: 'center',
               alignContent: 'center',
               justifyContent: 'space-between',
+              marginBottom: '1rem',
             }}>
               <div style={{
-                maxWidth: '200px',
+                width: '42%',
                 padding: '0 5px',
                 height: '255px'
               }}>
@@ -31,7 +32,9 @@ const IndexPage = ({ data }) => {
                   />
                 </Link>
               </div>
-              <div>
+              <div style={{
+                width: '58%',
+              }}>
                 <h2 style={{
                   marginBottom: '0',
                 }}>

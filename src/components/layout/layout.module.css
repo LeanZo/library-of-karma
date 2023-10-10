@@ -49,6 +49,8 @@ a:hover {
   margin-bottom: 2.5rem;
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
 }
 
 .nav-link-item {

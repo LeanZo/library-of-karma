@@ -5,8 +5,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://library.karma.dev.br/`,
     title: `Library of Karma`,
-    description: `A library of JHorror movies and other hard to find media.`,
-    image: `/cute-witch-no-bg-head.png`,
+    description: `Welcome to Karma's Digital Library, a non-profit repository, where a passionate witch is preserving and sharing rare J-Horror movies. In an age where many of these films are disappearing from the internet, Karma's mission is to ensure their continued availability and enjoyment. Explore this growing collection and enjoy these cinematic gems!`,
+    image: `/library-of-karma-icon.png`,
   },
   plugins: [
     "gatsby-plugin-image",
